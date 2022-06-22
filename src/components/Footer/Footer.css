@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+    height: 270px;
+}
+.f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 7rem;
+    gap: 2rem;
+    color: rgb(0, 0, 0);
+}
+.f-content h6{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.f-icons i{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.f-icons{
+    display: flex;
+}
+.footer img{
+    height: 270px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+
+
+
+

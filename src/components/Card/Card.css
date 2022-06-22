@@ -1,0 +1,23 @@
+.box{
+    width: 14rem;
+    height: 15rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--orangeCard);
+    border-radius: 20px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.4);
+    padding: 0px 26px 2rem 26px;
+}
+.box img{
+    transform: scale(0.6);
+}
+.box>:nth-child(2){
+    margin-top: -10px;
+}
+.box>:nth-child(3){
+    margin-top: 15px;
+}
+

@@ -1,0 +1,116 @@
+.n-wrapper {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1)
+  }
+  .n-left {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .n-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+  }
+  
+  .n-list {
+    flex: 10;
+  }
+  .n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+  }
+  a{
+    color: var(--black);
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .n-list > ul li:hover {
+    color: var(--orange);
+    cursor: pointer;
+  }
+  
+  .n-button {
+    width: 90px;
+    padding: 5px;
+  }
+  .menu{
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    background: var(--orange);
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--orange);
+    transition: 0.5s ease;
+    display: none;
+  }
+  .menu:hover{
+    color: var(--orange);
+    background: white;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .n-list {
+      display: none;
+    }
+    .menu{
+      display: block;
+    }
+  }
+  @media screen and (max-width: 377px) {
+    .n-button{
+      display: none;
+    }
+  }
+
+
+  .show{
+    position: absolute;
+    top: 13vh;
+    left: -15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    z-index: 1;
+    border-radius: 15px;
+  }
+  .show ul{
+    width: 100%;
+  }
+  .show ul li{
+    list-style: none;
+    padding: 4px 20px;
+    background: var(--orange);
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    transition: 0.8s ease ;
+    border-radius: 8px;
+    border: 1px solid var(--orange);
+    color: white;
+  }
+.show ul li:hover{
+  background: white;
+  color: var(--orange);
+}

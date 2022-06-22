@@ -1,0 +1,235 @@
+.skills{
+    margin-top: 100px;
+}
+.skill-name {
+  display: flex;
+  flex-direction: column;
+}
+.skill-name > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.skill-name > :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.skill-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 18px;
+  text-align: justify;
+  color: var(--gray);
+  margin-top: 13px;
+}
+.skill-button {
+  width: 6rem;
+}
+
+.skill-right {
+  position: relative;
+}
+
+.main-circle {
+  position: relative;
+  width: 17rem;
+  height: 17rem;
+  box-shadow: var(--smboxShadow);
+  border-radius: 100%;
+  background: white;
+  z-index: 111;
+  animation: rotate 15s ease infinite;
+}
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  5% {
+    transform: rotate(20deg);
+  }
+  10% {
+    transform: rotate(30deg);
+  }
+  30% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(70deg);
+  }
+  60% {
+    transform: rotate(120deg);
+  }
+  70% {
+    transform: rotate(160deg);
+  }
+  80% {
+    transform: rotate(200deg);
+  }
+  90% {
+    transform: rotate(260deg);
+  }
+}
+.main-circle > * {
+  position: absolute;
+}
+.main-circle > :nth-child(1) {
+  left: 6rem;
+  top: -3rem;
+}
+.main-circle > :nth-child(2) {
+  top: 5rem;
+  left: -3rem;
+}
+.main-circle > :nth-child(3) {
+  top: 5rem;
+  left: 6rem;
+}
+.main-circle > :nth-child(4) {
+  top: 5rem;
+  left: 14rem;
+}
+.main-circle > :nth-child(5) {
+  top: 13.5rem;
+  left: 6rem;
+}
+.sec-circle {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--smboxShadow);
+  background: white;
+  z-index: 11;
+}
+.sec-circle i {
+ font-size: 4rem;
+  z-index: 11;
+}
+
+@media screen and (max-width: 600px) {
+  .skill-right {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .skill-right {
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 413px) {
+  .skill-right {
+    transform: scale(0.7);
+  }
+}
+@media screen and (max-width: 390px) {
+  .main-circle {
+    width: 14rem;
+    height: 14rem;
+  }
+  .sec-circle i{
+    font-size: 3.8rem;
+  }
+  .main-circle > :nth-child(1) {
+    left: 4rem;
+    top: -3rem;
+  }
+  .main-circle > :nth-child(2) {
+    top: 4rem;
+    left: -3rem;
+  }
+  .main-circle > :nth-child(3) {
+    top: 4.2rem;
+    left: 3.8rem;
+  }
+  .main-circle > :nth-child(4) {
+    top: 4rem;
+    left: 11rem;
+  }
+  .main-circle > :nth-child(5) {
+    top: 11.4rem;
+    left: 4rem;
+  }
+  .blue-circle,
+  .yellow-circle {
+    left: 10.2rem !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .skill-name > :nth-child(1) {
+    font-size: 2rem;
+  }
+  .skill-name > :nth-child(2) {
+    font-size: 2rem;
+  }
+}
+
+.background-circle {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: 0;
+}
+.blue-circle {
+  background: #194988;
+  left: 18rem;
+  top: 0rem;
+}
+.yellow-circle {
+  background: #f5c32c;
+  left: 18rem;
+  top: 8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .blue-circle,
+  .yellow-circle {
+    left: 16rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .blue-circle,
+  .yellow-circle {
+    left: 24rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  .blue-circle,
+  .yellow-circle {
+    left: 20rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .blue-circle,
+  .yellow-circle {
+    left: 16rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .blue-circle,
+  .yellow-circle {
+    left: 16rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .blue-circle,
+  .yellow-circle {
+    left: 16rem;
+  }
+  .background-circle {
+    height: 9rem;
+    width: 9rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blue-circle,
+  .yellow-circle {
+    left: 13rem;
+  }
+}
