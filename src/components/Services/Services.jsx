@@ -17,8 +17,8 @@ function Services() {
   return (
     <div className="services row" id="services">
       <div className="s-left col-12 col-md-12 col-lg-6">
-        <span className="m-0 p-0" style={{color: darkMode ? 'white' : ''}}>My Awesome</span>
-        <span className="m-0 p-0">Services</span>
+        <span data-aos='slide-right' className="m-0 p-0" style={{color: darkMode ? 'white' : ''}}>My Awesome</span>
+        <span data-aos='slide-left' className="m-0 p-0">Services</span>
         <span className="text-white" >Contact Me for </span>
         <Typed
         strings={['Web Designing', 'Graphic Designing', 'UI/UX Designing', 'Web Developing']}

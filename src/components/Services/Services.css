@@ -22,7 +22,7 @@
     font-weight: bold;
 }
 .s-left>:nth-child(3){
-    color: var(--gray);
+    color: var(--black);
     font-size: 16px;
     margin-top: 1rem;
 }

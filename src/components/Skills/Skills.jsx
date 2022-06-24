@@ -13,8 +13,8 @@ function Skills()  {
         <div className="mt-5 mb-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xlg-6">
           <div className="blur" style={{background: 'rgb(200, 231, 220)'}}></div>
         <div className="skill-name">
-          <span style={{color: darkMode ? 'white' : ''}}>My Awesome</span>
-          <span>Skills and Tools</span>
+          <span data-aos='slide-right' style={{color: darkMode ? 'white' : ''}}>My Awesome</span>
+          <span data-aos='slide-left'>Skills and Tools</span>
           <span style={{color: darkMode ? 'white' : ''}}>
             I am using HTML, CSS, JavaScript, Bootstrap, React JS and Angular JS for Front-End and Python, Django, MySQL for Back-End and Git as Version Control System
           </span>

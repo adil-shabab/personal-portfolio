@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer'>
         <img className='w-100' src={Wave} alt="" />
         <div className="f-content">
-            <div data-aos='slide-right' className="f-icons mt-4">
+            <div className="f-icons mt-4">
             <a target='_blank' href="https://github.com/adil-shabab"><i class="fa-brands fa-github"></i></a>
             <a target='_blank' href="https://www.facebook.com/adil.shabbab/"><i class="fa-brands fa-facebook"></i></a>
             <a target='_blank' href="https://www.instagram.com/adil___shabab_/"><i class="fa-brands fa-instagram"></i></a>
