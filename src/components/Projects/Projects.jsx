@@ -6,6 +6,7 @@ import Rymo from '../../img/rymo.png'
 import Netflix from '../../img/netflix.png'
 import Food from '../../img/food.png'
 import Construction from '../../img/construction.png'
+import Olx from '../../img/olx.png'
 import 'swiper/css'
 import {themeContext} from '../../Context'
 import {useContext} from 'react'
@@ -40,6 +41,9 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
                 <a target='_blank' href="https://build-best.netlify.app/"><img src={Construction} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href="https://react-olx-clone.netlify.app/"><img src={Olx} alt="" /></a>
             </SwiperSlide>
         </Swiper>
     </div>
