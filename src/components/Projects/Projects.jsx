@@ -28,6 +28,9 @@ function Projects() {
         className='portfolio-slider'
         >
             <SwiperSlide>
+                <a target='_blank' href="https://react-olx-clone.netlify.app/"><img src={Olx} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
                 <a target='_blank' href="https://ecommerce-cara.netlify.app/"><img src={Cara} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
@@ -41,9 +44,6 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
                 <a target='_blank' href="https://build-best.netlify.app/"><img src={Construction} alt="" /></a>
-            </SwiperSlide>
-            <SwiperSlide>
-                <a target='_blank' href="https://react-olx-clone.netlify.app/"><img src={Olx} alt="" /></a>
             </SwiperSlide>
         </Swiper>
     </div>
