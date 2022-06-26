@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.a1628beb.css",
-    "main.js": "/personal-portfolio/static/js/main.93b99d6b.js",
+    "main.js": "/personal-portfolio/static/js/main.92ebc5d1.js",
     "static/media/Adil Shabab.pdf": "/personal-portfolio/static/media/Adil Shabab.c9ae0990bdb24f91547a.pdf",
     "static/media/netflix.png": "/personal-portfolio/static/media/netflix.1ef80d9bb39fafafe426.png",
     "static/media/construction.png": "/personal-portfolio/static/media/construction.c30a4e0dc81ffac1e0d1.png",
     "static/media/rymo.png": "/personal-portfolio/static/media/rymo.4c223e555aea07e42744.png",
+    "static/media/olx.png": "/personal-portfolio/static/media/olx.4e3f6317eb9c8c5d73e9.png",
     "static/media/food.png": "/personal-portfolio/static/media/food.f6a9f748025fa787995d.png",
     "static/media/cara.png": "/personal-portfolio/static/media/cara.c03a157fd5d4916ed6b7.png",
     "static/media/glassesimoji.png": "/personal-portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
@@ -15,10 +16,10 @@
     "static/media/glasses.png": "/personal-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/personal-portfolio/index.html",
     "main.a1628beb.css.map": "/personal-portfolio/static/css/main.a1628beb.css.map",
-    "main.93b99d6b.js.map": "/personal-portfolio/static/js/main.93b99d6b.js.map"
+    "main.92ebc5d1.js.map": "/personal-portfolio/static/js/main.92ebc5d1.js.map"
   },
   "entrypoints": [
     "static/css/main.a1628beb.css",
-    "static/js/main.93b99d6b.js"
+    "static/js/main.92ebc5d1.js"
   ]
 }
