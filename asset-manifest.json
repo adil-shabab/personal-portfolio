@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.a1628beb.css",
-    "main.js": "/personal-portfolio/static/js/main.92ebc5d1.js",
+    "main.js": "/personal-portfolio/static/js/main.df510088.js",
     "static/media/Adil Shabab.pdf": "/personal-portfolio/static/media/Adil Shabab.c9ae0990bdb24f91547a.pdf",
     "static/media/netflix.png": "/personal-portfolio/static/media/netflix.1ef80d9bb39fafafe426.png",
     "static/media/construction.png": "/personal-portfolio/static/media/construction.c30a4e0dc81ffac1e0d1.png",
@@ -16,10 +16,10 @@
     "static/media/glasses.png": "/personal-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/personal-portfolio/index.html",
     "main.a1628beb.css.map": "/personal-portfolio/static/css/main.a1628beb.css.map",
-    "main.92ebc5d1.js.map": "/personal-portfolio/static/js/main.92ebc5d1.js.map"
+    "main.df510088.js.map": "/personal-portfolio/static/js/main.df510088.js.map"
   },
   "entrypoints": [
     "static/css/main.a1628beb.css",
-    "static/js/main.92ebc5d1.js"
+    "static/js/main.df510088.js"
   ]
 }
