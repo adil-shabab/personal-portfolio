@@ -31,10 +31,10 @@ function Projects() {
                 <a target='_blank' href="https://react-olx-clone.netlify.app/"><img src={Olx} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://ecommerce-cara.netlify.app/"><img src={Cara} alt="" /></a>
+                <a target='_blank' href="https://netflix-clone-react-shabab.netlify.app/"><img src={Netflix} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://netflix-clone-react-shabab.netlify.app/"><img src={Netflix} alt="" /></a>
+                <a target='_blank' href="https://ecommerce-cara.netlify.app/"><img src={Cara} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
                 <a target='_blank' href="https://ecommerce-rymo.netlify.app/"><img src={Rymo} alt="" /></a>
