@@ -40,6 +40,141 @@
   z-index: 111;
   animation: rotate 15s ease infinite;
 }
+.background-circle {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: 0;
+}
+.blue-circle {
+  background: #194988;
+  top: 0px;
+  left: 50%;
+  z-index: 1;
+}
+.yellow-circle {
+  background: #f5c32c;
+  left: 53%;
+  top: 33%;
+}
+.main-circle > * {
+  position: absolute;
+}
+.sec-circle {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--smboxShadow);
+  background: white;
+  z-index: 11;
+}
+.sec-circle i {
+  font-size: 2.5rem;
+   z-index: 11;
+ }
+ .main-circle > :nth-child(1) {
+  left: 5.5rem;
+  top: -2rem;
+}
+.main-circle > :nth-child(2) {
+  top: 1rem;
+  left: -0.5rem;
+}
+.main-circle > :nth-child(3) {
+  top: 6.8rem;
+  left: -1.8rem;
+}
+.main-circle > :nth-child(4) {
+  top: 12rem;
+  left: 0.5rem;
+}
+.main-circle > :nth-child(5) {
+  top: 13.5rem;
+  left: 6.5rem;
+}
+.main-circle > :nth-child(6) {
+  top: 11.2rem;
+  left: 12.2rem;
+}
+.main-circle > :nth-child(7) {
+  left: 12rem;
+  top: 0.2rem;
+}
+.main-circle > :nth-child(8) {
+  left: 14.5rem;
+  top: 5.7rem;
+}
+.main-circle > :nth-child(9) {
+  left: 6.1rem;
+  top: 5.7rem;
+}
+@media (max-width: 480px) {
+  .main-circle{
+    transform: scale(0.8);
+  }
+  .background-circle{
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media (max-width: 400px) {
+  .main-circle{
+    width: 13rem;
+    height: 13rem;
+  }
+  .sec-circle {
+    width: 3.9rem;
+    height: 3.9rem;
+    border: 3px solid #ebebeb;
+  }
+  .sec-circle i {
+    font-size: 1.5rem;
+     z-index: 11;
+   }
+  .main-circle > :nth-child(1) {
+    left: 4.7rem;
+    top: -1.5rem;
+  }
+  .main-circle > :nth-child(2) {
+    top: 0.2rem;
+    left: 0rem;
+  }
+  .main-circle > :nth-child(3) {
+    top: 5rem;
+    left: -1.4rem;
+  }
+  .main-circle > :nth-child(4) {
+    top: 9.5rem;
+    left: 0.5rem;
+  }
+  .main-circle > :nth-child(5) {
+    top: 10.5rem;
+    left: 5rem;
+  }
+  .main-circle > :nth-child(6) {
+    top: 8.9rem;
+    left: 9.5rem;
+  }
+  .main-circle > :nth-child(7) {
+    left: 9.5rem;
+    top: 0.2rem;
+  }
+  .main-circle > :nth-child(8) {
+    left: 11rem;
+    top: 4.5rem;
+  }
+  .main-circle > :nth-child(9) {
+    left: 4.8rem;
+    top: 4.5rem;
+  }
+}
+
 @keyframes rotate {
   0%,
   100% {
@@ -63,14 +198,23 @@
   70% {
     transform: rotate(160deg);
   }
-  80% {
+  75% {
     transform: rotate(200deg);
   }
-  90% {
+  80% {
     transform: rotate(260deg);
   }
-}
-.main-circle > * {
+  85% {
+    transform: rotate(280deg);
+  }
+  90% {
+    transform: rotate(300deg);
+  }
+  95% {
+    transform: rotate(360deg);
+  }
+} 
+/* .main-circle > * {
   position: absolute;
 }
 .main-circle > :nth-child(1) {
@@ -232,4 +376,4 @@
   .yellow-circle {
     left: 13rem;
   }
-}
+} */ 

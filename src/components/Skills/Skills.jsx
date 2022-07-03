@@ -41,6 +41,18 @@ function Skills()  {
                         <div className="sec-circle">
                           <i class="fa-brands fa-react" style={{color: '#61dbfb'}}></i>
                         </div>
+                        <div className="sec-circle">
+                          <i class="fa-brands fa-css3-alt" style={{color: '#349eeb'}}></i>
+                        </div>
+                        <div className="sec-circle">
+                          <i class="fa-brands fa-angular" style={{color: '#dd0031'}}></i>
+                        </div>
+                        <div className="sec-circle">
+                          <i class="fa-solid fa-database" style={{color: '#dc5f00'}}></i>
+                        </div>
+                        <div className="sec-circle">
+                          <i class="fa-brands fa-git-alt" style={{color: '#F1502F'}}></i>
+                        </div>
                     </div>
             {/* background circle  */}
             <div className="background-circle blue-circle"></div>
