@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.4515f459.css",
-    "main.js": "/personal-portfolio/static/js/main.b88fd681.js",
+    "main.css": "/personal-portfolio/static/css/main.f853b0c5.css",
+    "main.js": "/personal-portfolio/static/js/main.e0c41431.js",
     "static/media/netflix.png": "/personal-portfolio/static/media/netflix.1ef80d9bb39fafafe426.png",
     "static/media/construction.png": "/personal-portfolio/static/media/construction.c30a4e0dc81ffac1e0d1.png",
     "static/media/rymo.png": "/personal-portfolio/static/media/rymo.4c223e555aea07e42744.png",
     "static/media/olx.png": "/personal-portfolio/static/media/olx.4e3f6317eb9c8c5d73e9.png",
     "static/media/food.png": "/personal-portfolio/static/media/food.f6a9f748025fa787995d.png",
     "static/media/cara.png": "/personal-portfolio/static/media/cara.c03a157fd5d4916ed6b7.png",
+    "static/media/gym.png": "/personal-portfolio/static/media/gym.78c2bacf3a96b6e40d5c.png",
     "static/media/Adil Shabab.pdf": "/personal-portfolio/static/media/Adil Shabab.2891667b650b788f04a5.pdf",
     "static/media/glassesimoji.png": "/personal-portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/humble.png": "/personal-portfolio/static/media/humble.c8b32b53675e68978981.png",
@@ -15,11 +16,11 @@
     "static/media/wave.png": "/personal-portfolio/static/media/wave.fdfef4069ad90f610990.png",
     "static/media/glasses.png": "/personal-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.4515f459.css.map": "/personal-portfolio/static/css/main.4515f459.css.map",
-    "main.b88fd681.js.map": "/personal-portfolio/static/js/main.b88fd681.js.map"
+    "main.f853b0c5.css.map": "/personal-portfolio/static/css/main.f853b0c5.css.map",
+    "main.e0c41431.js.map": "/personal-portfolio/static/js/main.e0c41431.js.map"
   },
   "entrypoints": [
-    "static/css/main.4515f459.css",
-    "static/js/main.b88fd681.js"
+    "static/css/main.f853b0c5.css",
+    "static/js/main.e0c41431.js"
   ]
 }
