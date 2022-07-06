@@ -7,6 +7,7 @@ import Netflix from '../../img/netflix.png'
 import Food from '../../img/food.png'
 import Construction from '../../img/construction.png'
 import Olx from '../../img/olx.png'
+import Gym from '../../img/gym.png'
 import 'swiper/css'
 import {themeContext} from '../../Context'
 import {useContext} from 'react'
@@ -34,17 +35,22 @@ function Projects() {
                 <a target='_blank' href="https://netflix-clone-react-shabab.netlify.app/"><img src={Netflix} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://ecommerce-cara.netlify.app/"><img src={Cara} alt="" /></a>
+                <a target='_blank' href="https://adil-shabab.github.io/gym-website/"><img src={Gym} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://ecommerce-rymo.netlify.app/"><img src={Rymo} alt="" /></a>
+                <a target='_blank' href="https://build-best.netlify.app/"><img src={Construction} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
                 <a target='_blank' href="https://food-shop-ecommerce.netlify.app/"><img src={Food} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://build-best.netlify.app/"><img src={Construction} alt="" /></a>
+                <a target='_blank' href="https://ecommerce-cara.netlify.app/"><img src={Cara} alt="" /></a>
             </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href="https://ecommerce-rymo.netlify.app/"><img src={Rymo} alt="" /></a>
+            </SwiperSlide>
+
+
         </Swiper>
     </div>
   )

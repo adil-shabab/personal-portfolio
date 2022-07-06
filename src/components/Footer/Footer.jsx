@@ -14,7 +14,7 @@ function Footer() {
             <a target='_blank' href="https://www.instagram.com/adil___shabab_/"><i class="fa-brands fa-instagram"></i></a>
             <a target='_blank' href="https://www.linkedin.com/in/adil-shabab-1948b2233/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <h6>Created by Adil Shabab || All right reserved</h6>
+            <p className='credit'>Created by Adil Shabab || All right reserved</p>
         </div>
     </div>
    
