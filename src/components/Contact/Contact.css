@@ -25,3 +25,23 @@
 .message{
     height: 4rem !important;
 }
+.wt-wrapper{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wt{
+    color: rgb(12, 172, 12);
+    font-size: 2rem;
+    transition: 0.8s ease;
+}
+.wt:hover{
+    transform: scale(1.2);
+}
+.wt-text{
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    margin-left: 50px !important;
+}

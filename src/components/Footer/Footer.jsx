@@ -13,6 +13,7 @@ function Footer() {
             <a target='_blank' href="https://www.facebook.com/adil.shabbab/"><i class="fa-brands fa-facebook"></i></a>
             <a target='_blank' href="https://www.instagram.com/adil___shabab_/"><i class="fa-brands fa-instagram"></i></a>
             <a target='_blank' href="https://www.linkedin.com/in/adil-shabab-1948b2233/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target='_blank' href="https://wa.me/7510393197"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
             <p className='credit'>Created by Adil Shabab || All right reserved</p>
         </div>

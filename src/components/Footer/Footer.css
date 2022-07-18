@@ -40,3 +40,9 @@
     font-size: 14px;
     font-weight: bold;
 }
+.f-icons > *{
+    transition: 1s ease;
+}
+.f-icons > *:hover{
+    margin-top: -25px;
+}
