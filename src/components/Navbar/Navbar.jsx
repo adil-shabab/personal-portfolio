@@ -58,7 +58,7 @@ function Navbar() {
           </a>
         </ul>
       </div>
-      <a href="#contact"><button className="button n-button ml-2">Contact</button></a>
+      <a target='_blank' href="https://wa.me/7510393197"><button className="button n-button ml-2">Contact</button></a>
       {menu ? <i onClick={navbar} class="menu fa-solid fa-xmark"></i> : <i onClick={navbar} class="menu fa-solid fa-bars"></i>}
       
       
