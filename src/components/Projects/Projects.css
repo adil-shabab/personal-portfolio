@@ -34,3 +34,14 @@
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
 }
+/* .site a i{
+    padding: 5px;
+    color: black;
+    border: 1px solid black;
+    background: white;
+    transition: 0.8s ease;
+    border-radius: 50%;
+}
+.site a i:hover{
+    transform: scale(1.05);
+} */

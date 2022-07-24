@@ -32,35 +32,35 @@ function Projects() {
         className='portfolio-slider'
         >
             <SwiperSlide>
-                <a target='_blank' href="https://react-olx-clone.netlify.app/"><img src={Olx} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/olx-clone-react"><img src={Olx} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://netflix-clone-react-shabab.netlify.app/"><img src={Netflix} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/netflix-clone-react"><img src={Netflix} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://adil-shabab.github.io/gym-website/"><img src={Gym} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/gym-website"><img src={Gym} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://build-best.netlify.app/"><img src={Construction} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/Construction"><img src={Construction} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://food-shop-ecommerce.netlify.app/"><img src={Food} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/food-shop"><img src={Food} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://ecommerce-cara.netlify.app/"><img src={Cara} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/ecommerce-cara"><img src={Cara} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href="https://ecommerce-rymo.netlify.app/"><img src={Rymo} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/ecommerce-rymo"><img src={Rymo} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href=""><img src={Todo} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/todo-django"><img src={Todo} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <a target='_blank' href=""><img src={Diary} alt="" /></a>
+                <a target='_blank' href="https://github.com/adil-shabab/diary-app-frontend"><img src={Diary} alt="" /></a>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
                 <a target='_blank' href=""><img src={Yutube} alt="" /></a>
-            </SwiperSlide>
+            </SwiperSlide> */}
 
 
         </Swiper>
