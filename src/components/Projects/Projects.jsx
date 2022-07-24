@@ -8,6 +8,9 @@ import Food from '../../img/food.png'
 import Construction from '../../img/construction.png'
 import Olx from '../../img/olx.png'
 import Gym from '../../img/gym.png'
+import Todo from '../../img/Todo.png'
+import Yutube from '../../img/yutube downloader.png'
+import Diary from '../../img/diary app1.png'
 import 'swiper/css'
 import {themeContext} from '../../Context'
 import {useContext} from 'react'
@@ -48,6 +51,15 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
                 <a target='_blank' href="https://ecommerce-rymo.netlify.app/"><img src={Rymo} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href=""><img src={Todo} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href=""><img src={Diary} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href=""><img src={Yutube} alt="" /></a>
             </SwiperSlide>
 
 
