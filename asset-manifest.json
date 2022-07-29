@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.6f1343dc.css",
-    "main.js": "/personal-portfolio/static/js/main.ba553bb0.js",
+    "main.js": "/personal-portfolio/static/js/main.f27fec6e.js",
     "static/media/netflix.png": "/personal-portfolio/static/media/netflix.1ef80d9bb39fafafe426.png",
     "static/media/construction.png": "/personal-portfolio/static/media/construction.c30a4e0dc81ffac1e0d1.png",
     "static/media/rymo.png": "/personal-portfolio/static/media/rymo.4c223e555aea07e42744.png",
@@ -9,7 +9,7 @@
     "static/media/food.png": "/personal-portfolio/static/media/food.f6a9f748025fa787995d.png",
     "static/media/cara.png": "/personal-portfolio/static/media/cara.c03a157fd5d4916ed6b7.png",
     "static/media/gym.png": "/personal-portfolio/static/media/gym.78c2bacf3a96b6e40d5c.png",
-    "static/media/Adil Shabab.pdf": "/personal-portfolio/static/media/Adil Shabab.0b042017b0444b417327.pdf",
+    "static/media/Adil Shabab.pdf": "/personal-portfolio/static/media/Adil Shabab.b49f5caaab1072426b3d.pdf",
     "static/media/glassesimoji.png": "/personal-portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/Todo.png": "/personal-portfolio/static/media/Todo.67db522155cfc96fe7e9.png",
     "static/media/diary app 1.png": "/personal-portfolio/static/media/diary app 1.84c6f38bd33bdd912499.png",
@@ -19,10 +19,10 @@
     "static/media/glasses.png": "/personal-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/personal-portfolio/index.html",
     "main.6f1343dc.css.map": "/personal-portfolio/static/css/main.6f1343dc.css.map",
-    "main.ba553bb0.js.map": "/personal-portfolio/static/js/main.ba553bb0.js.map"
+    "main.f27fec6e.js.map": "/personal-portfolio/static/js/main.f27fec6e.js.map"
   },
   "entrypoints": [
     "static/css/main.6f1343dc.css",
-    "static/js/main.ba553bb0.js"
+    "static/js/main.f27fec6e.js"
   ]
 }
