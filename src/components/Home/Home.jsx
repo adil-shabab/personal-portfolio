@@ -30,7 +30,7 @@ function Home() {
             <span style={{fontSize: '24px', color: darkMode ? 'var(--orange)': 'var(--orange)'}}>Python Full-Stack Developer</span>
           </Typed>
           <span style={{color: darkMode ? 'white': ''}}>
-            I am currently doing my graduation from Calicut University. I have six months of experience as python full stack developer in Techolas technologies pvt ltd. I love combining the worlds of logic and creative design to make eye-catching, accessible, and user-friendly websites and applications.
+            I am currently doing my graduation from Bharathidasan University. I completed six months of Internship from Techolas technologies pvt ltd located in Calicut as Full-Stack Developer. I love combining the worlds of logic and creative design to make eye-catching, accessible, and user-friendly websites and applications.
             I am excited to make the leap and continue refining my skills with the right company. You can see some of the things I have worked on over on my Project page and my Github page. 
           </span>
         </div>
