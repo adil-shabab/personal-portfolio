@@ -28,8 +28,8 @@ function Projects() {
 
 
         <Swiper
-        spaceBetween={30}
-        slidesPerView={3.5}
+        spaceBetween={25}
+        slidesPerView={3.6}
         grabCursor={true}
         className='portfolio-slider'
         >

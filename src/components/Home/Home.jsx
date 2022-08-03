@@ -35,7 +35,7 @@ function Home() {
           </span>
         </div>
         <div className="row m-0 p-0">
-          <a href="#contact"><button className="button h-button">Hire me</button></a>
+          <a href="https://wa.me/7510393197" target='__blank'><button className="button h-button">Hire me</button></a>
           <a href={Cv} download><button className="button ml-3">Download CV</button></a>
         </div>
         <div className="h-icons">
