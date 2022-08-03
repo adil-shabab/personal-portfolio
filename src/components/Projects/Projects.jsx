@@ -8,6 +8,8 @@ import Food from '../../img/food.png'
 import Construction from '../../img/construction.png'
 import Olx from '../../img/olx.png'
 import Gym from '../../img/gym.png'
+import AngularGame from '../../img/tic tac toe.png'
+import UrlScraper from '../../img/url scraper.png'
 import Todo from '../../img/Todo.png'
 // import Yutube from '../../img/yutube downloader.png'
 import Diary from '../../img/diary app 1.png'
@@ -57,6 +59,12 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
                 <a target='_blank' href="https://github.com/adil-shabab/diary-app-frontend"><img src={Diary} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href="https://github.com/adil-shabab/tic-tac-toe-angular"><img src={AngularGame} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href="https://github.com/adil-shabab/url-scraper"><img src={UrlScraper} alt="" /></a>
             </SwiperSlide>
             {/* <SwiperSlide>
                 <a target='_blank' href=""><img src={Yutube} alt="" /></a>
