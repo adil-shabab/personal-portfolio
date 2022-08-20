@@ -13,6 +13,7 @@ import UrlScraper from '../../img/url scraper.png'
 import Todo from '../../img/Todo.png'
 // import Yutube from '../../img/yutube downloader.png'
 import Diary from '../../img/diary app 1.png'
+import Buyend from '../../img/buy-end.png'
 import 'swiper/css'
 import {themeContext} from '../../Context'
 import {useContext} from 'react'
@@ -33,6 +34,9 @@ function Projects() {
         grabCursor={true}
         className='portfolio-slider'
         >
+            <SwiperSlide>
+                <a target='_blank' href="https://github.com/adil-shabab/buy-end"><img src={Buyend} alt="" /></a>
+            </SwiperSlide>
             <SwiperSlide>
                 <a target='_blank' href="https://github.com/adil-shabab/olx-clone-react"><img src={Olx} alt="" /></a>
             </SwiperSlide>
